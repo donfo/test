@@ -1,0 +1,142 @@
+.main.news_bg {
+  background: url("../images/news_bg.jpg");
+  background-size: 100% auto;
+  background-position: center bottom;
+}
+.main.news_bg .logo {
+  width: 42%;
+  margin: 20px 29% 0;
+  float: left;
+}
+.main.news_bg .logo img {
+  width: 100%;
+}
+.main.news_bg .line {
+  width: 50%;
+  margin: auto;
+}
+.main.news_bg .line img {
+  width: 100%;
+}
+.main.news_bg .newsul {
+  color: #fff;
+  width: 100%;
+  float: left;
+  margin-top: 35%;
+}
+.main.news_bg .newsul a {
+  color: #fff;
+}
+.main.news_bg .newsul li {
+  float: left;
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+.main.news_bg .newsul li:first-child i {
+  margin-bottom: 5px;
+}
+.main.news_bg .newsul li:last-child i {
+  margin: 8px 0 8px 40%;
+}
+.main.news_bg .newsul li:last-child .classline {
+  position: absolute;
+  left: 0;
+  top: -10%;
+  height: 130%;
+  width: 1px;
+  overflow: hidden;
+}
+.main.news_bg .newsul li:last-child .classline img {
+  height: 100%;
+}
+.main.news_bg .newsul li i {
+  text-align: center;
+  width: 20%;
+  display: block;
+  margin-left: 40%;
+}
+.main.news_bg .newsul li i img {
+  width: 100%;
+}
+.main.news_bg .newsul li .title {
+  text-align: center;
+}
+
+.newsList {
+  padding: 0 8px;
+  display: inline-block;
+}
+.newsList li {
+  position: relative;
+  font-size: 14px;
+  padding: 10px 0;
+  width: 100%;
+  float: left;
+  border-bottom: solid 1px #ccc;
+}
+.newsList li:last-child {
+  border: none;
+}
+.newsList li .pic {
+  width: 125px;
+  height: 75px;
+  float: left;
+  overflow: hidden;
+  margin-right: 5px;
+}
+.newsList li .pic img {
+  width: 100%;
+  min-height: 100%;
+}
+.newsList li .title {
+  height: 40px;
+  display: block;
+  overflow: hidden;
+}
+.newsList li .description {
+  font-size: 12px;
+  margin-top: 2px;
+  color: #999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.newsList li .hot {
+  position: absolute;
+  right: 4px;
+  background: #019342;
+  color: #fff;
+  line-height: 15px;
+  padding: 0 8px;
+  font-size: 12px;
+  bottom: 10px;
+  border-left: solid 10px #e1e1e1;
+}
+
+.newsContPic img {
+  width: 100%;
+}
+
+.newsCont {
+  margin: 0 20px;
+}
+.newsCont .title {
+  font-size: 18px;
+  padding-top: 10px;
+}
+.newsCont .time {
+  border-bottom: solid 1px #999;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  text-align: right;
+  color: #999;
+}
+.newsCont .content {
+  font-size: 14px;
+}
+.newsCont .content img {
+  width: 100%;
+}

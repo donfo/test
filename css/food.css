@@ -1,0 +1,95 @@
+.foodList {
+  padding: 10px;
+}
+.foodList li {
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.foodList li img {
+  width: 100%;
+}
+.foodList li .title {
+  position: absolute;
+  right: 0;
+  bottom: 15%;
+  width: 34%;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  padding-right: 20px;
+}
+.foodList li .title .arrow {
+  top: 2px;
+  right: 10%;
+  position: absolute;
+}
+.foodList li .title .arrow i {
+  font-size: 16px;
+  color: #717171;
+}
+.foodList li .title .arrow i:nth-child(2) {
+  color: #bdbdbd;
+}
+
+.foodChildList {
+  padding: 10px;
+}
+.foodChildList li {
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.foodChildList li img {
+  width: 100%;
+}
+.foodChildList li .title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 34%;
+  height: 100%;
+  color: #fff;
+  background-image: -webkit-linear-gradient(180deg, transparent 0%, black 140%);
+}
+.foodChildList li .title i {
+  float: left;
+  clear: both;
+  margin: 8% 0 0 0%;
+  text-align: center;
+}
+.foodChildList li .title i img {
+  max-width: 50%;
+  max-height: 50%;
+}
+.foodChildList li .title span {
+  line-height: 30px;
+  float: left;
+  margin: 18% 0 0 12%;
+}
+
+.foodCont {
+  padding: 10px;
+  color: #000;
+}
+.foodCont .name {
+  font-size: 18px;
+  line-height: 30px;
+}
+.foodCont .name img {
+  width: 34px;
+  margin: 3px 5px 0 0;
+  float: left;
+}
+.foodCont .content {
+  padding: 8px 0;
+  font-size: 15px;
+}
+.foodCont .content img {
+  max-width: 100%;
+}

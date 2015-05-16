@@ -1,0 +1,109 @@
+﻿html,body,.main{
+  height: 100%;
+}
+.media{
+  width: 90%;
+  margin-left: 5%;
+  height: 94%;
+  margin-top: 5%;
+  float: left;
+  background: url('../images/media-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  .top{
+    width: 92%;
+    padding: 4%;
+    float: left;
+    .official{
+      width: 30%;
+      float: left;
+      li{
+        width: 100%;
+        height: auto;
+        background: rgba(0,0,0,0.1);
+        margin-bottom: 6%;
+        text-align: center;
+        padding: 15px 0;
+        img{
+          width: 65%;
+        }
+      }
+    }
+    .manage{
+      width: 68%;
+      float: right;
+      background: rgba(0,0,0,0.1);
+      padding-bottom: 10px;
+      .tit{
+        color: #fff;
+        text-align: center;
+        padding: 36px 0 20px;
+      }
+      ul{
+        padding: 0 5%;
+        width: 90%;
+        position: relative;
+        float: left;
+        &:before{
+          content: '';
+          width: 1px;
+          height: 50%;
+          position: absolute;
+          background: rgba(255,255,255,0.3);
+          top: 25%;
+          left: 50%;
+          margin-left: -1px;
+        }
+        &:after{
+          content: '';
+          height: 1px;
+          width: 50%;
+          position: absolute;
+          background: rgba(255,255,255,0.3);
+          left: 25%;
+          top: 50%;
+          margin-top: -1px;
+        }
+        li{
+          float: left;
+          width: 50%;
+          padding: 10% 0;
+          text-align: center;
+          img{
+            width: 65%;
+          }
+        }
+      }
+    }
+  }
+  .logo{
+    position: absolute;
+    width: 32%;
+    left: 5%;
+    bottom: 3%;
+    img{
+      width: 100%;
+    }
+  }
+  .webLink{
+    position: absolute;
+    width: 35%;
+    right: 0;
+    bottom: 10%;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    text-align: center;
+    padding-right: 5%;
+    line-height: 34px;
+    .arrow{
+      position: absolute;
+      right: 10%;
+      top: 2px;
+      i{
+        &:last-child{
+          color: rgba(255,255,255,0.7);
+        }
+      }
+    }
+  }
+}

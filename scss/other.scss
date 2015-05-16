@@ -1,0 +1,443 @@
+﻿.branchtop{
+  width: 82%;
+  float: right;
+  text-align: right;
+  padding-right: 3%;
+  line-height: 45px;
+  font-size: 14px;
+  color: #666;
+  border-bottom: solid 1px #bbb;
+  i{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: solid 1px #999;
+    color: #999;
+    display: inline-block;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 5px;
+  }
+}
+
+.branchList{
+  float: right;
+  width: 100%;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 14px;
+  li{
+    width: 92%;
+    float: right;
+    padding-right: 3%;
+    height: 60px;
+    margin: 10px 0;
+    background: #aaa;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: relative;
+    .pic{
+      float: left;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 5px 5px 0 5px;
+      img{
+        width: 100%;
+        min-height: 100%;
+      }
+    }
+    .name{
+      margin-top: 10px;
+      float: left;
+      line-height: 24px;
+      width: 56%;
+    }
+    .address{
+      font-size: 12px;
+      color: #ddd;
+      float: left;
+      width: 56%;
+      line-height: 16px;
+      .dz{
+        width: 70%;
+        float: left;
+        border-right: solid 1px #ddd;
+        margin-left: -1px;
+      }
+      .distance{
+        float: right;
+        width: 30%;
+        text-align: right;
+        border-left: solid 1px #888;
+        margin-right: -1px;
+      }
+    }
+    i{
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      border: solid 1px #eee;
+      color: #fff;
+      line-height: 28px;
+      text-align: center;
+      position: absolute;
+      top: 16px;
+      &.tel{
+        right: 14%;
+      }
+      &.map{
+        right: 2.5%;
+      }
+    }
+
+  }
+}
+
+
+//video.html
+.videoList{
+  margin: 0 3%;
+  li{
+    float: left;
+    width: 48.5%;
+    margin-top: 3%;
+    &:nth-child(even){
+      float: right;
+    }
+    .pic{
+      position: relative;
+      overflow: hidden;
+      max-height: 190px;
+      img{
+        width: 100%;
+      }
+      .tit{
+        position: absolute;
+        background: rgba(0,0,0,0.6);
+        bottom: 0;
+        width: 100%;
+        color: #fff;
+        font-size: 12px;
+        line-height: 20px;
+        text-indent: 5px;
+      }
+    }
+    .title{
+      width: 100%;
+      font-size: 15px;
+      line-height: 22px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .playNum{
+      color: #999;
+      font-size: 12px;
+    }
+  }
+}
+
+//information.html
+.informationList{
+  padding: 0 3% 0;
+  width: 94%;
+  float: left;
+  li{
+    width: 31.3333%;
+    float: left;
+    position: relative;
+    border-radius: 5px;
+    overflow:hidden;
+    margin-top: 3%;
+    img{
+      width: 100%;
+    }
+    .title{
+      position: absolute;
+      top: 0;
+      background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, white 60%);
+      height: 60px;
+      .cn{
+        width: 100%;
+        text-indent: 8px;
+        float: left;
+        margin-top: 3px;
+      }
+      .en{
+        width: 100%;
+        font-size: 8px;
+        text-indent: 8px;
+        float: left;
+        font-family: arial;
+      }
+      .arrow{
+        position: absolute;
+        right: 5px;
+        line-height: 30px;
+        font-size: 14px;
+        span:nth-child(2) {
+          color: #bbb;
+          margin-left: -4px;
+        }
+      }
+    }
+    &:nth-child(2){
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+  }
+}
+
+//myPrize.html
+.myPrizeList{
+  padding: 15px 15px 0;
+  li{
+    width: 30%;
+    float: left;
+    margin-bottom: 15px;
+    font-size: 14px;
+    .pic{
+      width: 100%;
+      border-radius: 5px;
+      overflow: hidden;
+      img{
+        width: 100%;
+      }
+    }
+    &:nth-child(3n){
+      float: right;
+    }
+    &:nth-child(3n-1){
+      margin: 0 5% 15px;
+    }
+    .title{
+      text-align: center;
+    }
+  }
+}
+
+
+//myCoupon.html
+.myCouponList{
+  padding: 15px 15px 0;
+  li{
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+    font-size: 14px;
+    position: relative;
+    background: #fff;
+    &:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 5px;
+      left: -5px;
+      background: url("../images/mycoupon_list_border-1.png");
+      background-size: 100% 100%;
+    }
+    .pic{
+      width: 50px;
+      overflow: hidden;
+      float: left;
+      margin: 8px 5px 8px 8px;
+      img{
+        width: 100%;
+      }
+    }
+    .title{
+      font-size: 15px;
+      line-height: 18px;
+      padding-top: 5px;
+      height: 39px;
+      width: 68%;
+    }
+    .time{
+      color: #999;
+      font-size: 10px;
+    }
+    .price{
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100%;
+      width: 30%;
+      color: #fff;
+      background: #019342;
+      p{
+        font-size: 22px;
+        text-align: right;
+        padding-right: 5px;
+        margin-top: 20px;
+        line-height: 22px;
+      }
+      span{
+        font-size: 12px;
+        padding-right: 5px;
+        text-align: right;
+        float: right;
+      }
+      i{
+        position: absolute;
+        font-size: 50px;
+        left: 10px;
+        bottom: 10px;
+        z-index: 0;
+        color: rgba(255,255,255,0.2);
+      }
+      &:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 5px;
+        left: -5px;
+        background: url("../images/mycoupon_list_border-2.png");
+        background-size: 100% 100%;
+      }
+      &:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 5px;
+        right: -5px;
+        background: url("../images/mycoupon_list_border-2.png");
+        background-size: 100% 100%;
+        -webkit-transform: rotateY(180deg);
+      }
+    }
+  }
+}
+
+//member.html
+.memberTop{
+  position: relative;
+  >img{
+    width: 100%;
+  }
+  >div{
+    position: absolute;
+  }
+  .logo{
+    width: 30%;
+    left: 5%;
+    top: 5%;
+    img{
+      width: 100%;
+    }
+  }
+  .headpic{
+    width: 94px;
+    height: 94px;
+    border: solid 3px rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    overflow: hidden;
+    left: 5%;
+    top: 30%;
+    img{
+      width: 100%;
+      min-height: 100%;
+    }
+  }
+  .nameGroup{
+    width: 50%;
+    height: auto;
+    left: 40%;
+    top: 38%;
+    color: #fff;
+    .name{
+      font-size: 20px;
+      line-height: 34px;
+      border-bottom: dashed 1px #FFF;
+    }
+    .group{
+      line-height: 28px;
+      i{
+        color: #019342;
+        margin: 5px 5px 0 0;
+        font-size: 20px;
+        float: left;
+      }
+    }
+  }
+  .dzgl{
+    background: rgba(255, 255, 255, 0.7);
+    width: 90px;
+    right: 3%;
+    top: 8%;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+  }
+}
+
+.memberList{
+  margin: 10px;
+  padding: 3px 10px;
+  background: #fff;
+  float: left;
+  li{
+    width: 90%;
+    float: left;
+    padding: 16px 5%;
+    border-bottom: solid 1px #eaeaea;
+    a{
+      width: 100%;
+      height: 100%;
+      float: left;
+    }
+    &:last-child{
+      border: 0;
+    }
+    &:nth-child(1){
+      .ico{
+        color: #79cbe8;
+      }
+    }
+    &:nth-child(2){
+      .ico{
+        color: #6bceb5;
+      }
+    }
+    &:nth-child(3){
+      .ico{
+        color: #f6bd2c;
+      }
+    }
+    &:nth-child(4){
+      .ico{
+        color: #f99e8c;
+      }
+    }
+    &:nth-child(5){
+
+      .ico{
+        color: #c2b2ea;
+      }
+    }
+    .ico{
+      float: left;
+      font-size: 18px;
+      margin-right: 20px;
+      margin-top: 2px;
+    }
+    .tit{
+      float: left;
+    }
+    .arrow{
+      float: right;
+      i{
+        font-size: 16px;
+        color: #bbb;
+        &:nth-child(2) {
+          color: #ddd;
+        }
+      }
+    }
+  }
+}

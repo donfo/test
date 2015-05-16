@@ -1,0 +1,386 @@
+@charset "UTF-8";
+.foodShare {
+  margin: 3%;
+  float: left;
+  width: 94%;
+}
+.foodShare .top {
+  height: 36px;
+  line-height: 36px;
+  position: relative;
+}
+.foodShare .top input {
+  width: 65%;
+  float: left;
+  border: solid 1px #ccc;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 3px;
+  text-indent: 30px;
+  color: #888;
+}
+.foodShare .top .btn {
+  width: 32%;
+  float: right;
+  text-align: center;
+  background: #019342;
+  border-radius: 3px;
+  color: #fff;
+}
+.foodShare .top i {
+  position: absolute;
+  left: 8px;
+  top: 10px;
+  color: #888;
+}
+.foodShare .tabCont {
+  width: 100%;
+}
+.foodShare .tabCont > ul {
+  margin: 5px 0;
+  background: #fff;
+  padding: 5px 10px;
+  float: left;
+}
+.foodShare .tabCont > ul > li {
+  position: relative;
+  font-size: 14px;
+  float: left;
+  margin-bottom: 10px;
+}
+.foodShare .tabCont > ul > li .head {
+  position: relative;
+  padding-top: 45px;
+  overflow: hidden;
+}
+.foodShare .tabCont > ul > li .head .headPic {
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  border: solid 4px #fff;
+}
+.foodShare .tabCont > ul > li .head .headPic img {
+  width: 100%;
+  min-height: 100%;
+}
+.foodShare .tabCont > ul > li .head .name {
+  position: absolute;
+  top: 18px;
+  left: 80px;
+  font-size: 16px;
+}
+.foodShare .tabCont > ul > li .head > img {
+  width: 100%;
+  border-top-right-radius: 5px;
+}
+.foodShare .tabCont > ul > li .head .title {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 5px 0;
+  color: #fff;
+  text-indent: 15px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.foodShare .tabCont > ul > li > ul {
+  padding: 0 2% 10px;
+  float: left;
+  border: solid 1px #ccc;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.foodShare .tabCont > ul > li > ul .time {
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: solid 1px #ccc;
+  float: left;
+  color: #888;
+}
+.foodShare .tabCont > ul > li > ul .time span {
+  float: left;
+}
+.foodShare .tabCont > ul > li > ul .time a {
+  float: right;
+  padding: 0 8px;
+  border-left: solid 1px #ddd;
+  color: #888;
+}
+.foodShare .tabCont > ul > li > ul .time a:last-child {
+  border: none;
+}
+.foodShare .tabCont > ul > li > ul .time a i {
+  margin-right: 3px;
+}
+.foodShare .tabCont > ul > li > ul li {
+  width: 100%;
+  float: left;
+  margin-top: 5px;
+}
+.foodShare .tabCont > ul > li > ul li .minHeadPic {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin-right: 5px;
+}
+.foodShare .tabCont > ul > li > ul li .minHeadPic img {
+  width: 100%;
+  min-height: 100%;
+}
+.foodShare .tabCont > ul > li > ul li .reply {
+  color: #999;
+}
+.foodShare .tabCont > ul > li > ul li .reply span {
+  color: #333;
+}
+
+.foodShareCont {
+  font-size: 14px;
+}
+.foodShareCont .time {
+  width: 100%;
+  padding: 6px 0;
+  border-bottom: solid 1px #ddd;
+  float: left;
+  color: #999;
+}
+.foodShareCont .time span {
+  float: left;
+}
+.foodShareCont .time a {
+  float: left;
+  padding: 0 10px;
+  border: solid 1px #ddd;
+  color: #999;
+  margin: 0 5px;
+  line-height: 26px;
+  border-radius: 13px;
+}
+.foodShareCont .time a:last-child {
+  float: right;
+  padding: 0 15px;
+  border: solid 1px #019342;
+  color: #019342;
+  font-size: 20px;
+}
+.foodShareCont .time a i {
+  margin-right: 3px;
+}
+.foodShareCont ul li {
+  width: 94%;
+  float: left;
+  padding: 8px 3%;
+  border-bottom: solid 1px #ddd;
+}
+.foodShareCont ul li .minHeadPic {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+.foodShareCont ul li .minHeadPic img {
+  width: 100%;
+  min-height: 100%;
+}
+.foodShareCont ul li .reply {
+  color: #999;
+}
+.foodShareCont ul li .reply span {
+  color: #333;
+}
+.foodShareCont ul li .reply input {
+  background: #eee;
+  border: solid 1px #ddd;
+  width: 85%;
+  line-height: 30px;
+  height: 30px;
+  text-indent: 5px;
+  border-radius: 3px;
+}
+.foodShareCont ul li:last-child {
+  border: 0;
+}
+.foodShareCont ul li:last-child .minHeadPic {
+  margin-top: 5px;
+}
+
+.foodShare .tabCont > ul.classCirclePublish {
+  background: #fff;
+  width: 100%;
+  padding: 0;
+}
+.foodShare .tabCont > ul.classCirclePublish .tit {
+  border-bottom: solid 1px #ddd;
+  padding: 8px 10px;
+  line-height: 24px;
+}
+.foodShare .tabCont > ul.classCirclePublish .tit i {
+  margin-right: 5px;
+  font-size: 20px;
+  float: left;
+  margin-top: 1px;
+}
+.foodShare .tabCont > ul.classCirclePublish .content {
+  width: 94%;
+  border: 0;
+  padding: 10px 3%;
+  color: #444;
+  font-size: 14px;
+  border-top: solid 1px #ddd;
+}
+.foodShare .tabCont > ul.classCirclePublish .btn {
+  border: none;
+  color: #fff;
+  line-height: 34px;
+  width: 100%;
+  background: #019342;
+}
+.foodShare .tabCont > ul.classCirclePublish .pic {
+  background: #fff;
+  clear: both;
+  padding: 6px 7px;
+}
+.foodShare .tabCont > ul.classCirclePublish .pic dd {
+  width: 68px;
+  float: left;
+  height: 68px;
+  background: #ededed;
+  margin: 4px;
+  font-weight: normal;
+  border-radius: 5px;
+  position: relative;
+}
+.foodShare .tabCont > ul.classCirclePublish .pic dd img {
+  min-width: 100%;
+  max-width: 150%;
+  min-height: 68px;
+  border-radius: 5px;
+}
+.foodShare .tabCont > ul.classCirclePublish .pic dd:first-child {
+  border: 1px dashed #aaa;
+  width: 66px;
+  height: 66px;
+  background: none;
+  position: relative;
+}
+.foodShare .tabCont > ul.classCirclePublish .pic dd:first-child::before {
+  content: "+";
+  display: block;
+  font-size: 80px;
+  height: 66px;
+  margin-top: 0;
+  line-height: 66px;
+  color: #aaa;
+  text-align: center;
+  font-family: 宋体;
+}
+.foodShare .tabCont > ul.classCirclePublish .pic dd:first-child input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 66px;
+  height: 66px;
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  opacity: 0;
+}
+.foodShare .tabCont > ul.classCirclePublish .pic dd .cancel {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: url(../images/upload-cencel.png) no-repeat right bottom;
+  background-size: auto 100%;
+}
+.foodShare .tabCont > ul.classCirclePublish .pic dd .success {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  z-index: 200;
+  background: url(../images/upload-ok.png) no-repeat right bottom;
+  background-size: auto 100%;
+  border-bottom-right-radius: 5px;
+}
+.foodShare .tabCont > ul.classCirclePublish .pic dd .error {
+  position: absolute;
+  margin: 3px;
+  font-size: 12px;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5) !important;
+  filter: Alpha(opacity=50);
+  background: #000;
+}
+.foodShare .tabCont > ul.classCirclePublish .pic dd p.progress {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 8px;
+  overflow: hidden;
+  z-index: 50;
+  margin: 0;
+  border-radius: 0;
+  background: none;
+  -webkit-box-shadow: 0 0 0;
+}
+.foodShare .tabCont > ul.classCirclePublish .pic dd p.progress span {
+  display: none;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  background: #1483d8 url(http://fex.baidu.com/webuploader/images/progress.png) repeat-x;
+  -webit-transition: width 200ms linear;
+  -moz-transition: width 200ms linear;
+  -o-transition: width 200ms linear;
+  -ms-transition: width 200ms linear;
+  transition: width 200ms linear;
+  -webkit-animation: progressmove 2s linear infinite;
+  -moz-animation: progressmove 2s linear infinite;
+  -o-animation: progressmove 2s linear infinite;
+  -ms-animation: progressmove 2s linear infinite;
+  animation: progressmove 2s linear infinite;
+  -webkit-transform: translateZ(0);
+}
+
+@-webkit-keyframes progressmove {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 17px 0;
+  }
+}
+@-moz-keyframes progressmove {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 17px 0;
+  }
+}
+@keyframes progressmove {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 17px 0;
+  }
+}

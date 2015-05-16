@@ -1,0 +1,878 @@
+.shopList {
+  margin: 15px 12px 10px;
+  display: inline-block;
+}
+.shopList li {
+  width: 30%;
+  margin: 0 1.65%;
+  float: left;
+  overflow: hidden;
+  max-height: 260px;
+  position: relative;
+}
+.shopList li img {
+  width: 100%;
+}
+.shopList li .title {
+  position: absolute;
+  width: 100%;
+  height: 45%;
+  top: 0;
+  left: 0;
+  background: rgba(118, 118, 118, 0.9);
+  color: #fff;
+}
+.shopList li .title:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 12px solid rgba(118, 118, 118, 0.9);
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  margin-left: -10px;
+}
+.shopList li .title span {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.shopList li .title span.en {
+  font-size: 8px;
+  margin-top: 32%;
+}
+.shopList li .title span.cn {
+  font-size: 16px;
+}
+.shopList li:nth-child(2) .title {
+  height: 30%;
+}
+.shopList li:nth-child(2) .title .en {
+  margin-top: 20%;
+}
+
+.shopNav {
+  margin: 0 12px;
+  color: #cacaca;
+}
+.shopNav li {
+  width: 30%;
+  margin: 0 1.65%;
+  float: left;
+  overflow: hidden;
+  height: 100px;
+  background: url("../images/shop_nav_bg.jpg");
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+}
+.shopNav li a {
+  width: 100%;
+  height: 100%;
+  color: #cacaca;
+}
+.shopNav li span {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.shopNav li i {
+  font-size: 36px;
+  padding: 18px 0 5px;
+  text-align: center;
+  width: 100%;
+  float: left;
+}
+
+.productNewList li {
+  margin-bottom: 5px;
+  position: relative;
+}
+.productNewList li > img {
+  width: 100%;
+}
+.productNewList li > div {
+  position: absolute;
+  top: 0;
+}
+.productNewList li .pic {
+  right: 5%;
+  width: 40%;
+  height: 100%;
+  line-height: 1000%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.productNewList li .pic img {
+  max-width: 100%;
+  max-height: 80%;
+}
+.productNewList li .text {
+  left: 5%;
+  color: #717171;
+  width: 40%;
+  font-size: 12px;
+  top: 15%;
+}
+.productNewList li .text a {
+  color: #717171;
+}
+.productNewList li .text .title {
+  color: #bdbdbd;
+  font-weight: bold;
+  font-size: 18px;
+}
+.productNewList li .text .arrow {
+  bottom: -25px;
+  left: 0;
+  position: absolute;
+  font-size: 14px;
+}
+.productNewList li .text .arrow span {
+  float: left;
+}
+.productNewList li .text .arrow i {
+  color: #717171;
+  float: left;
+  margin-top: 3px;
+}
+.productNewList li .text .arrow i:nth-child(2) {
+  margin-left: 5px;
+}
+.productNewList li .text .arrow i:nth-child(3) {
+  color: #bdbdbd;
+}
+.productNewList li:nth-child(even) .pic {
+  right: inherit;
+  left: 5%;
+}
+.productNewList li:nth-child(even) .text {
+  left: inherit;
+  right: 3%;
+}
+.productNewList li:nth-child(even) > img {
+  -webkit-transform: rotateY(180deg);
+}
+
+.productCreativeList {
+  padding: 15px;
+}
+.productCreativeList li {
+  position: relative;
+}
+.productCreativeList li:nth-child(1) {
+  margin-bottom: 10px;
+}
+.productCreativeList li a > img {
+  width: 100%;
+}
+.productCreativeList li > div {
+  position: absolute;
+  top: 0;
+}
+.productCreativeList li .li3 {
+  position: absolute;
+  top: 0;
+  width: 65%;
+  right: 0;
+  border-left: solid 10px #e1e1e1;
+  border-bottom: solid 10px #e1e1e1;
+}
+.productCreativeList li .li3 img {
+  width: 100%;
+}
+.productCreativeList li:nth-child(2) > a > .text {
+  top: inherit;
+  bottom: 5%;
+}
+.productCreativeList li .text {
+  position: absolute;
+  left: 5%;
+  color: #fff;
+  width: 90%;
+  font-size: 12px;
+  top: 5%;
+  border-bottom: solid 1px #fff;
+  padding-bottom: 3px;
+}
+.productCreativeList li .text .cn {
+  font-size: 18px;
+}
+.productCreativeList li .text .arrow {
+  bottom: 3px;
+  right: 0;
+  position: absolute;
+}
+.productCreativeList li .text .arrow i {
+  color: #d9d9d9;
+}
+.productCreativeList li .text .arrow i:nth-child(2) {
+  color: #fff;
+}
+
+.productListTop {
+  background: #fff;
+  height: 45px;
+  border-bottom: solid 1px #e1e1e1;
+  line-height: 45px;
+  text-align: center;
+  color: #00a650;
+  font-size: 14px;
+}
+.productListTop ul {
+  width: 100%;
+  float: left;
+}
+.productListTop ul li {
+  width: 18%;
+  padding: 0 3.5%;
+  float: left;
+  position: relative;
+}
+.productListTop ul li:after {
+  content: '';
+  height: 14px;
+  width: 1px;
+  background: #ddd;
+  position: absolute;
+  top: 17px;
+  right: 0;
+}
+.productListTop ul li:last-child:after {
+  display: none;
+}
+.productListTop ul li.active:before {
+  content: '';
+  height: 2px;
+  width: 60%;
+  background: #00a650;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+}
+.productListTop ul li.searchBtn {
+  color: #999;
+}
+
+.search {
+  height: 46px;
+  background: #f5f5f5;
+  display: none;
+}
+.search input {
+  border: 0;
+  width: 92%;
+  height: 30px;
+  line-height: 30px;
+  margin: 8px 2%;
+  padding: 0 2%;
+  border-radius: 5px;
+  background: #e5e5e5;
+}
+
+.productList {
+  margin: 8px;
+}
+.productList ul {
+  background: #fff;
+  padding: 0 8px;
+  display: inline-block;
+}
+.productList ul li {
+  position: relative;
+  font-size: 13px;
+  padding: 10px 0;
+  width: 100%;
+  float: left;
+  border-bottom: solid 1px #ddd;
+}
+.productList ul li:last-child {
+  border: none;
+}
+.productList ul li .pic {
+  width: 100px;
+  height: 80px;
+  float: left;
+  overflow: hidden;
+  margin-right: 5px;
+}
+.productList ul li .pic img {
+  width: 100%;
+  min-height: 100%;
+}
+.productList ul li .title {
+  height: 40px;
+  display: block;
+  overflow: hidden;
+}
+.productList ul li .price {
+  display: block;
+}
+.productList ul li .price .currentPrice {
+  font-size: 16px;
+  font-weight: bold;
+  color: #00a650;
+}
+.productList ul li .price .originalPrice {
+  color: #ccc;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+.productList ul li .peopleNum {
+  margin-top: 3px;
+  color: #ccc;
+}
+.productList ul li .btnBuy {
+  position: absolute;
+  right: 5px;
+  bottom: 12px;
+  color: #00a650;
+  background: none;
+  border: solid 1px #00a650;
+  line-height: 24px;
+  width: 24%;
+  border-radius: 5px;
+}
+
+.productCont {
+  margin: 2.5% 2.5% 0;
+  background: #fff;
+  display: block;
+  float: left;
+}
+.productCont #slides {
+  padding: 8px;
+}
+.productCont .title {
+  padding: 0 8px;
+}
+.productCont .price {
+  padding: 5px 8px;
+  position: relative;
+}
+.productCont .price .currentPrice {
+  font-size: 24px;
+  color: #00a650;
+}
+.productCont .price .originalPricehui {
+  color: #ccc;
+}
+.productCont .price .originalPrice {
+  text-decoration: line-through;
+  margin-left: 3px;
+}
+.productCont .huise {
+  padding: 0 8px 10px;
+  color: #ccc;
+}
+.productCont .huise span:last-child {
+  float: right;
+}
+.productCont .ts {
+  height: 30px;
+  line-height: 30px;
+  background: #f2f2f2;
+}
+.productCont .ts li {
+  float: left;
+  font-size: 14px;
+  margin-left: 8px;
+  color: #888;
+}
+.productCont .ts li i {
+  color: #ffaa18;
+  font-size: 20px;
+  float: left;
+  margin-top: 5px;
+  margin-right: 2px;
+}
+.productCont .tit {
+  margin: 0 8px;
+  padding-bottom: 3px;
+  color: #666;
+  border-bottom: solid 1px #ededed;
+}
+.productCont .detail {
+  font-size: 14px;
+  padding: 5px 8px;
+  color: #666;
+}
+.productCont .detail img {
+  max-width: 100%;
+}
+
+.btnGroup {
+  width: 95%;
+  height: 30px;
+  margin: 0 2.5%;
+  position: fixed;
+  bottom: 0;
+  line-height: 30px;
+  padding: 10px 0;
+  background: #fff;
+  border-top: solid 2px #e1e1e1;
+  border-bottom: solid 8px #e1e1e1;
+  max-width: 420px;
+}
+.btnGroup .chat {
+  color: #00a650;
+  float: left;
+  margin-left: 8px;
+}
+.btnGroup .chat i {
+  font-size: 22px;
+  float: left;
+  margin-top: 2px;
+  margin-right: 5px;
+}
+.btnGroup .checkAll {
+  float: left;
+  margin-left: 8px;
+}
+.btnGroup .checkAll .select {
+  margin-right: 5px;
+  float: left;
+  margin-top: 4px;
+  width: 18px;
+  height: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  border: solid 1px #ccc;
+  border-radius: 50%;
+}
+.btnGroup .checkAll.active .select {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  background: #00a650;
+}
+.btnGroup .total-info {
+  float: right;
+  margin-right: 8px;
+  color: #00a650;
+}
+.btnGroup .btn {
+  border: none;
+  color: #fff;
+  line-height: 30px;
+  padding: 0 5%;
+  border-radius: 5px;
+  float: right;
+  margin-right: 2%;
+  font-size: 12px;
+}
+.btnGroup .btnBuy {
+  background: #ff5151;
+}
+.btnGroup .btnCart {
+  background: #ff9a41;
+}
+
+.cart {
+  margin: 2.5% 2.5% 0;
+  padding: 2.5%;
+  width: 90%;
+  background: #fff;
+  display: block;
+  float: left;
+}
+.cart .cartTit {
+  width: 100%;
+  height: 20px;
+  position: relative;
+  padding: 5px 0 2px;
+}
+.cart .cartTit:before {
+  content: '';
+  width: 94%;
+  height: 15px;
+  position: absolute;
+  top: 5px;
+  left: 2%;
+  background: url(../images/cartTit_bg.png);
+  z-index: 0;
+}
+.cart .cartTit:after {
+  content: '';
+  width: 3px;
+  height: 15px;
+  background: #fff;
+  position: absolute;
+  top: 5px;
+  left: 5%;
+}
+.cart .cartTit span {
+  position: relative;
+  background: #fff;
+  float: right;
+  padding: 0 10px 0 20px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.cart .cartTit span:before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 200%;
+  background: #ccc;
+  left: 10px;
+  top: -4px;
+}
+.cart li {
+  float: left;
+  padding: 15px 0 15px 34px;
+  border-top: solid 1px #ddd;
+  position: relative;
+}
+.cart li .pic {
+  width: 98px;
+  height: 68px;
+  float: left;
+  overflow: hidden;
+  margin-right: 5px;
+  border: solid 1px #ccc;
+}
+.cart li .pic img {
+  width: 100%;
+  min-height: 100%;
+}
+.cart li .title {
+  font-size: 14px;
+  height: 38px;
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 35%;
+}
+.cart li .price {
+  float: right;
+  font-size: 14px;
+}
+.cart li .num_wrap {
+  float: left;
+  width: 50%;
+  margin-top: 8px;
+  color: #666;
+}
+.cart li .num_wrap i {
+  width: 30px;
+  height: 22px;
+  text-align: center;
+  display: block;
+  float: left;
+  border: solid 1px #ccc;
+  line-height: 22px;
+}
+.cart li .num_wrap input {
+  float: left;
+  width: 32px;
+  border: 0;
+  height: 22px;
+  line-height: 22px;
+  color: #666;
+  background: transparent;
+  text-align: center;
+  border-top: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
+}
+.cart li .select {
+  position: absolute;
+  left: 3px;
+  top: 50%;
+  margin-top: -10px;
+  width: 18px;
+  height: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  border: solid 1px #ccc;
+  border-radius: 50%;
+}
+.cart li.active .select {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  background: #00a650;
+}
+
+.address {
+  height: 70px;
+  background: #444;
+  color: #8c8c8c;
+  padding: 10px 15px;
+  position: relative;
+}
+.address .arrow {
+  position: absolute;
+  right: 4%;
+  height: 30px;
+  top: 28px;
+}
+.address .arrow img {
+  height: 100%;
+}
+.address .dz {
+  padding-left: 40px;
+  position: relative;
+  width: 78%;
+}
+.address .dz .icon-location {
+  position: absolute;
+  left: -5px;
+  top: 12px;
+  font-size: 36px;
+}
+.address .dz .dz-1 {
+  font-size: 15px;
+  color: #fff;
+}
+.address .dz .dz-1 .dz-tel {
+  margin-left: 10px;
+  float: right;
+}
+.address .dz .dz-2 {
+  font-size: 14px;
+  margin-top: 4px;
+}
+.address .dz-xz {
+  line-height: 70px;
+  text-align: center;
+  display: block;
+}
+
+.orderList {
+  margin: 2.5% 2.5% 0;
+  padding: 0 2.5%;
+  width: 90%;
+  background: #fff;
+  display: block;
+  float: left;
+}
+.orderList .status {
+  padding: 10px 5px 8px;
+  font-size: 14px;
+}
+.orderList .status > span {
+  float: right;
+  color: #019342;
+  position: relative;
+}
+.orderList .status > span i {
+  position: absolute;
+  left: -30px;
+  top: 4px;
+  color: #666;
+}
+.orderList > li {
+  float: left;
+  padding: 10px 0;
+  border-top: solid 1px #dfdfdf;
+  position: relative;
+}
+.orderList > li:first-child {
+  border-top: none;
+}
+.orderList > li .pic {
+  width: 98px;
+  height: 68px;
+  float: left;
+  overflow: hidden;
+  margin-right: 5px;
+  border: solid 1px #dfdfdf;
+}
+.orderList > li .pic img {
+  width: 100%;
+  min-height: 100%;
+}
+.orderList > li .title {
+  font-size: 14px;
+  height: 38px;
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 35%;
+}
+.orderList > li .price {
+  float: right;
+  font-size: 14px;
+}
+.orderList > li .num {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  font-size: 14px;
+  color: #999;
+}
+.orderList orderpublic, .orderList .userBtnGroup, .orderList .total-info, .orderList .distributionWay, .orderList .payWay, .orderList .msg {
+  width: 100%;
+  float: left;
+  padding: 10px 0;
+  border-top: solid 1px #dfdfdf;
+  color: #666;
+  font-size: 14px;
+}
+.orderList orderpublic span, .orderList .userBtnGroup span, .orderList .total-info span, .orderList .distributionWay span, .orderList .payWay span, .orderList .msg span {
+  float: right;
+  padding-right: 10px;
+}
+.orderList .userBtnGroup .btn {
+  float: right;
+  padding: 5px 15px;
+  margin-left: 15px;
+  border: solid 1px #666;
+  border-radius: 5px;
+  background: transparent;
+}
+.orderList .userBtnGroup .btn.green {
+  color: #019342;
+  border: solid 1px #019342;
+}
+.orderList .total-info {
+  font-size: 14px;
+  text-align: right;
+  color: #aaa;
+}
+.orderList .total-info span {
+  color: #666;
+}
+.orderList .total-info span.span1 {
+  float: left;
+}
+.orderList .total-info span.span2 {
+  margin-right: 10px;
+}
+.orderList .total-info span.span3 {
+  font-size: 16px;
+}
+.orderList .distributionWay {
+  position: relative;
+}
+.orderList .distributionWay span {
+  float: left;
+}
+.orderList .distributionWay .typeval {
+  float: right;
+}
+.orderList .payWay li {
+  float: left;
+  margin-right: 20px;
+}
+.orderList .payWay li.active i:before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #019342;
+  border-radius: 50%;
+  left: 4px;
+  top: 4px;
+}
+.orderList .payWay li i {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: solid 1px #dadada;
+  display: block;
+  float: left;
+  margin: 2px 5px 0 0;
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #dadada));
+}
+.orderList .msg input {
+  width: 96%;
+  height: 36px;
+  padding: 0 2%;
+  background: #e8e8e8;
+  border: none;
+  border-radius: 3px;
+}
+
+.orderBtnGroup {
+  margin: 0;
+  width: 100%;
+  max-width: 480px;
+  bottom: 50px;
+  border-bottom: 0;
+}
+.orderBtnGroup .btnOk {
+  background: #019342;
+}
+
+.userTop {
+  position: relative;
+}
+.userTop > img {
+  width: 100%;
+}
+.userTop > div {
+  position: absolute;
+}
+.userTop .logo {
+  width: 30%;
+  left: 5%;
+  top: 5%;
+}
+.userTop .logo img {
+  width: 100%;
+}
+.userTop .headpic {
+  width: 120px;
+  height: 120px;
+  border: solid 3px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  margin-top: -90px;
+  margin-left: -60px;
+}
+.userTop .headpic .pic {
+  width: 100px;
+  height: 100px;
+  border: solid 3px rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+.userTop .headpic .pic img {
+  width: 100%;
+  min-height: 100%;
+}
+.userTop .dzgl {
+  background: rgba(255, 255, 255, 0.7);
+  width: 90px;
+  left: 50%;
+  margin-left: -45px;
+  font-size: 13px;
+  text-align: center;
+  bottom: 20%;
+  line-height: 20px;
+  border-radius: 10px;
+}
+.userTop .tab {
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  height: 20px;
+  padding: 7px 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  line-height: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+.userTop .tab li {
+  float: left;
+  width: 33.3333%;
+  border-left: solid 1px #666;
+  margin-left: -1px;
+}
+.userTop .tab li:first-child {
+  border-left: none;
+}
+.userTop .tab li.active {
+  color: #019342;
+}

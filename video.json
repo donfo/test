@@ -1,0 +1,40 @@
+﻿{
+    "list": [
+        {
+            "pic_url": "images/video_list-1.jpg",
+            "title": "3D立体循环进风",
+            "description": "燃烧充分 缔造高效火力",
+            "play_num": "18.0"
+        },
+        {
+            "pic_url": "images/video_list-2.jpg",
+            "title": "微焰+光波",
+            "description": "比普通炉灶温度高出200°",
+            "play_num": "18.0"
+        },
+        {
+            "pic_url": "images/video_list-3.jpg",
+            "title": "近1000个火孔",
+            "description": "燃烧充分 火力更猛",
+            "play_num": "18.0"
+        },
+        {
+            "pic_url": "images/video_list-4.jpg",
+            "title": "独特红色切角设计",
+            "description": "精致雅亮 手感舒适",
+            "play_num": "18.0"
+        },
+        {
+            "pic_url": "images/video_list-2.jpg",
+            "title": "微焰+光波",
+            "description": "比普通炉灶温度高出200°",
+            "play_num": "18.0"
+        },
+        {
+            "pic_url": "images/video_list-3.jpg",
+            "title": "近1000个火孔",
+            "description": "燃烧充分 火力更猛",
+            "play_num": "18.0"
+        }
+    ]
+}

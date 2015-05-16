@@ -1,0 +1,98 @@
+﻿body{
+  background: none;
+}
+.logo{
+  width: 50%;
+  margin-left: 25%;
+  padding: 12% 0;
+  img{
+    width: 100%;
+  }
+}
+.regForm{
+  width: 80%;
+  margin-left: 10%;
+  float: left;
+  input{
+    width: 94%;
+    padding: 0 3%;
+    border: solid 1px #ccc;
+    background: rgba(255,255,255,0.5);
+    border-radius: 5px;
+    height: 36px;
+    text-indent: 24px;
+  }
+  i[class*="icon-"]{
+    position: absolute;
+    left: 3%;
+    color: #019342;
+    font-size: 18px;
+    line-height: 38px;
+  }
+  >div{
+    position: relative;
+    margin-top: 8%;
+  }
+  >button{
+    position: relative;
+    margin-top: 15%;
+  }
+  .code{
+    .btnCode{
+      width: 52%;
+      float: left;
+    }
+    .inputCode{
+      width: 45%;
+      float: right;
+      input{
+        text-indent: 0;
+        width: 80%;
+        padding: 0 10%;
+      }
+    }
+  }
+  .tip{
+    font-size: 13px;
+    color: #777;
+    background: rgba(255,255,255,0.6);
+    border-radius: 5px;
+    padding: 8px;
+    float: left;
+  }
+  .btn{
+    background: rgba(0,147,66,0.8);
+    border: 0;
+    height: 36px;
+    width: 100%;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .check{
+    font-size: 13px;
+    color: #666;
+    i{
+      width: 15px;
+      height: 15px;
+      float: left;
+      border: solid 1px #666;
+      margin-top: 1px;
+      margin-right: 8px;
+      position: relative;
+      font-family: 'icomoon';
+      &.active{
+        background: #019342;
+        border: solid 1px #019342;
+        &:before{
+          content: '\e116';
+          color: #fff;
+        }
+      }
+    }
+    a{
+      color: #019342;
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,250 @@
+.activity {
+  padding: 10px;
+}
+.activity .tabCont {
+  width: 100%;
+  float: left;
+}
+.activity .tabCont ul {
+  margin: 8px 0;
+}
+.activity .tabCont ul li {
+  position: relative;
+  background: #fff;
+  margin-bottom: 10px;
+  height: 90px;
+  padding-right: 8px;
+  box-shadow: 0 2px 1px #ccc;
+}
+.activity .tabCont ul li .pic {
+  height: 90px;
+  width: 34%;
+  overflow: hidden;
+  float: left;
+  margin-right: 3%;
+}
+.activity .tabCont ul li .pic img {
+  width: 100%;
+  min-height: 100%;
+}
+.activity .tabCont ul li .tit {
+  color: #000;
+  font-size: 15px;
+  line-height: 28px;
+}
+.activity .tabCont ul li .title {
+  font-size: 13px;
+  color: #888;
+}
+.activity .tabCont ul li .time {
+  font-size: 12px;
+  color: #bbb;
+  float: right;
+  padding-top: 5px;
+}
+
+.activityContTop {
+  position: relative;
+}
+.activityContTop img {
+  width: 100%;
+}
+.activityContTop .title {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 6px 0;
+  text-indent: 15px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+.activityCont {
+  padding: 10px;
+  font-size: 14px;
+}
+.activityCont .info {
+  background: #fff;
+  padding: 8px 3%;
+  line-height: 20px;
+  width: 94%;
+  float: left;
+}
+.activityCont .info i {
+  color: #019342;
+  margin-right: 5px;
+}
+.activityCont .info .time {
+  border-bottom: solid 1px #ccc;
+  margin-bottom: 8px;
+  padding: 4px 0;
+}
+.activityCont .info .time p {
+  text-indent: 20px;
+}
+.activityCont .info .num {
+  width: 50%;
+  float: left;
+}
+.activityCont .info .totalNum {
+  width: 50%;
+  float: left;
+  text-align: center;
+  border-left: solid 1px #ccc;
+  margin-left: -1px;
+}
+.activityCont .content {
+  background: #fff;
+  width: 100%;
+  float: left;
+}
+.activityCont .content span {
+  float: left;
+  padding: 0 3%;
+  width: 94%;
+}
+.activityCont .content .tit {
+  background: #019342;
+  color: #fff;
+  float: left;
+  clear: both;
+  margin: 10px 0;
+  padding: 3px 15px;
+  position: relative;
+}
+.activityCont .content .tit:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -12px;
+  width: 0;
+  height: 0;
+  border-top: 12px solid #019342;
+  border-right: 12px solid transparent;
+}
+.activityCont .content .tit:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: -12px;
+  width: 0;
+  height: 0;
+  border-top: 12px solid #019342;
+  border-right: 12px solid transparent;
+  -webkit-transform: rotate(-90deg);
+}
+.activityCont .content .address {
+  border-bottom: dashed 1px #ccc;
+  float: left;
+  padding-bottom: 8px;
+}
+.activityCont .content .cont {
+  float: left;
+  padding-bottom: 10px;
+}
+.activityCont .enroll {
+  padding-top: 10px;
+  width: 100%;
+  float: left;
+  line-height: 20px;
+}
+.activityCont .enroll i {
+  color: #019342;
+  margin-right: 5px;
+  float: left;
+  margin-top: 3px;
+}
+.activityCont .enroll .enrollLink {
+  float: right;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.tipForm {
+  margin: 0 5%;
+  width: 80%;
+  padding: 5%;
+  float: left;
+  position: fixed;
+  background: #e1e1e1;
+  z-index: 10000;
+  border-radius: 5px;
+  left: 0;
+  display: none;
+}
+.tipForm li {
+  float: left;
+  width: 100%;
+  margin-top: 12px;
+}
+.tipForm li:first-child {
+  margin-top: 0;
+}
+.tipForm li input {
+  border: 0;
+  width: 92%;
+  padding: 0 4%;
+  line-height: 36px;
+  border-radius: 3px;
+}
+.tipForm li .btn {
+  border: none;
+  color: #fff;
+  line-height: 34px;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+  background: #019342;
+}
+
+.myActivity {
+  margin: 10px;
+  float: left;
+}
+.myActivity li {
+  position: relative;
+  background: #fff;
+  margin-bottom: 10px;
+  height: 90px;
+  padding-right: 8px;
+  border: solid 1px #ccc;
+  overflow: hidden;
+}
+.myActivity li .pic {
+  height: 90px;
+  width: 34%;
+  overflow: hidden;
+  float: left;
+  margin-right: 3%;
+}
+.myActivity li .pic img {
+  width: 100%;
+  min-height: 100%;
+}
+.myActivity li .tit {
+  color: #000;
+  font-size: 15px;
+  line-height: 28px;
+}
+.myActivity li .title {
+  font-size: 13px;
+  color: #888;
+}
+.myActivity li .time {
+  font-size: 12px;
+  color: #bbb;
+  float: right;
+  padding-top: 5px;
+}
+.myActivity li .new {
+  position: absolute;
+  color: #fff;
+  background: #019342;
+  font-size: 10px;
+  top: 6px;
+  right: -28px;
+  padding: 2px 30px;
+  -webkit-transform: rotate(45deg);
+}

@@ -1,0 +1,35 @@
+﻿{
+    "list": [
+        {
+            "pic_url": "images/news_list-1.jpg",
+            "title": "创新成就行业标杆，工业设计助推华帝问鼎",
+            "description": "作为中国帆船帆板队的合作伙伴，中山华帝燃具股份有...",
+            "hot": true
+        },
+        {
+            "pic_url": "images/news_list-2.jpg",
+            "title": "创新成就行业标杆，工业设计助推华帝问鼎",
+            "description": "作为中国帆船帆板队的合作伙伴，中山华帝燃具股份有...",
+            "hot": false
+        },
+        {
+            "pic_url": "images/news_list-3.jpg",
+            "title": "创新成就行业标杆，工业设计助推华帝问鼎",
+            "description": "作为中国帆船帆板队的合作伙伴，中山华帝燃具股份有...",
+            "hot": true
+        },
+        {
+            "pic_url": "images/news_list-2.jpg",
+            "title": "创新成就行业标杆，工业设计助推华帝问鼎",
+            "description": "作为中国帆船帆板队的合作伙伴，中山华帝燃具股份有...",
+            "hot": false
+
+        },
+        {
+            "pic_url": "images/news_list-3.jpg",
+            "title": "创新成就行业标杆，工业设计助推华帝问鼎",
+            "description": "作为中国帆船帆板队的合作伙伴，中山华帝燃具股份有...",
+            "hot": false
+        }
+    ]
+}

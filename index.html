@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html style="background: #e1e1e1 url('images/experience-bg.jpg') no-repeat center center fixed;background-size: 100% auto;">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>微体验</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="css/css.css"/>
+    <link rel="stylesheet" type="text/css" href="css/experience.css"/>
+</head>
+
+<body>
+<div class="main">
+    <div class="logo"><img src="images/user_logo.png"> </div>
+    <ul class="experience">
+        <li class="li1">
+            <a href="#">
+                <i class="icon-users"></i>
+                <div class="text">
+                    <p class="cn">客服专区</p>
+                    <p class="en">CUSTOMER SERVICES</p>
+                </div>
+            </a>
+        </li>
+        <li class="li2">
+            <a href="register.html">
+                <i class="icon-user"></i>
+                <div class="text">
+                    <p class="cn">华帝会员</p>
+                    <p class="en">VATTI MEMBER</p>
+                </div>
+            </a>
+        </li>
+        <li class="li3">
+            <a href="activity.html">
+                <i class="icon-activity"></i>
+                <div class="text">
+                    <p class="cn">主题活动</p>
+                    <p class="en">THEME ACTIVITIES</p>
+                </div>
+            </a>
+        </li>
+        <li class="li4">
+            <a href="#">
+                <i class="icon-home"></i>
+                <div class="text">
+                    <p class="cn">会员社区</p>
+                    <p class="en">COMMUNITY MEMBER</p>
+                </div>
+            </a>
+        </li>
+        <li class="li5">
+            <a href="foodNav.html">
+                <i class="icon-food"></i>
+                <div class="text">
+                    <p class="cn">美食飨受</p>
+                    <p class="en">FOOD SHARE FROM</p>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script>
+    $(function(){
+        var W = $('.experience').width();
+        var H = $('.experience').height();
+        var R = W / 1.66666667;
+        $('.experience li').css({
+            top: H / 2 - 30 +"px",
+            left: W -30 +"px"
+        });
+
+        $('.experience li.li1').css({
+            marginTop:  Math.sin(24) * R +"px",
+            marginLeft: -Math.cos(24) * R +"px"
+        });
+        $('.experience li.li2').css({
+            marginTop:  Math.sin(54) * R +"px",
+            marginLeft: Math.cos(54) * R +"px"
+        });
+        $('.experience li.li3').css({
+            marginTop: 0 +"px",
+            marginLeft:  -R +"px"
+        });
+        $('.experience li.li4').css({
+            marginTop:  -Math.sin(54) * R +"px",
+            marginLeft: Math.cos(54) * R +"px"
+        });
+        $('.experience li.li5').css({
+            marginTop:  -Math.sin(24) * R +"px",
+            marginLeft: -Math.cos(24) * R +"px"
+        });
+    });
+</script>
+</body>
+</html>

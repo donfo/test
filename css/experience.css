@@ -1,0 +1,83 @@
+html, body, .main {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: none;
+}
+
+.logo {
+  position: absolute;
+  width: 35%;
+  margin: 5%;
+  left: 0;
+  top: 0;
+}
+.logo img {
+  width: 100%;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(180deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotateli {
+  0% {
+    -webkit-transform: rotate(-180deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+.experience {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-origin: 100% 50%;
+  -webkit-transform: rotate(0deg);
+  -webkit-animation: rotate 2s;
+}
+.experience li {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  float: right;
+  -webkit-transform: rotate(0deg);
+  -webkit-animation: rotateli 2s;
+}
+.experience li i {
+  color: #fff;
+  font-size: 26px;
+  vertical-align: middle;
+  line-height: 56px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: solid 2px #fff;
+  background: rgba(255, 255, 255, 0.2);
+  float: right;
+  clear: both;
+  text-align: center;
+}
+.experience li .text {
+  color: #fff;
+  position: absolute;
+  width: 120px;
+  left: -130px;
+  top: 10px;
+  text-align: right;
+}
+.experience li .text .cn {
+  font-size: 18px;
+  line-height: 28px;
+}
+.experience li .text .en {
+  font-size: 8px;
+}
